@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<launch>
+
+  <!-- sudo apt install ros-melodic-roscpp-tutorials, only first time -->
+  <node name="$(anon talker)" pkg="roscpp_tutorials" type="talker"/>
+
+</launch>

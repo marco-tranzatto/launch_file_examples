@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+
+<package format="2">
+
+  <name>rosmon_anon_issue</name>
+  <version>0.1.0</version>
+  <description>rosmon_anon_issue.</description>
+
+  <license>Proprietary</license>
+
+  <author email="marcot@ethz.ch.com">Marco Tranzatto</author>
+  <maintainer email="marcot@ethz.ch.com">Marco Tranzatto</maintainer>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+</package>

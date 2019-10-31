@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<launch>
+
+  <!-- First anon include -->
+  <include file="$(find rosmon_anon_issue)/launch/anon_node_include.launch"/>
+
+  <!-- Second anon include -->
+  <include file="$(find rosmon_anon_issue)/launch/anon_node_include.launch"/>
+
+</launch>
