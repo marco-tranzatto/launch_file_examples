@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<launch>
+
+  <!-- sudo apt install ros-melodic-roscpp-tutorials, only first time -->
+  <node name="talker" pkg="roscpp_tutorials" type="talker">
+    <!-- Load yaml file with params -->
+    <rosparam command="load"  file="$(find rosmon_empty_yaml_issue)/config/example_config.yaml"/>
+    <!-- Load empty yaml file -->
+    <rosparam command="load"  file="$(find rosmon_empty_yaml_issue)/config/empty_file.yaml"/>
+  </node>
+
+</launch>
